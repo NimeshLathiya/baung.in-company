@@ -1,0 +1,91 @@
+.GoalAboutMeGoal {
+  display: flex;
+  margin-top: 171px;
+  padding: 0 15px;
+}
+.leftAboutMe {
+  padding: 0 72px 0 0;
+}
+.leftAboutMe h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #016a70;
+}
+.leftAboutMe h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #016a70;
+}
+.leftAboutMe h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #016a70;
+}
+
+@media (max-width: 1252px) {
+  .leftAboutMe {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1092px) {
+  .leftAboutMe {
+    padding: 0 20px;
+  }
+  .leftAboutMe h1 {
+    font-size: 40px;
+  }
+  .leftAboutMe h6 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .GoalAboutMeGoal {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+  }
+  .rightAboutMe {
+    display: flex;
+    justify-content: center;
+  }
+  .rightAboutMe img {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .GoalAboutMeGoal {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 575px) {
+  .leftAboutMe h3 {
+    font-size: 25px;
+  }
+  .leftAboutMe h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 475px) {
+  .GoalAboutMeGoal {
+    padding: 0 30px;
+  }
+  .leftAboutMe h3 {
+    font-size: 18px;
+  }
+  .leftAboutMe h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .GoalAboutMeGoal {
+    padding: 0 20px;
+  }
+  .leftAboutMe h3 {
+    font-size: 15px;
+  }
+  .leftAboutMe h1 {
+    font-size: 20px;
+  }
+}

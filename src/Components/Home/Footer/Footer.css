@@ -1,0 +1,93 @@
+.footer {
+  background-image: url(../../../Components/Home/image/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainFooter {
+  display: flex;
+  width: 100%;
+  padding: 342px 10px 76px 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.leftside {
+  width: 40%;
+}
+.leftside h6 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.Address {
+  font-family: "Poppins", sans-serif;
+  margin-top: 31px;
+  color: white;
+}
+.number {
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  color: white;
+}
+
+.company .Contact .More {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+.company h5,
+.Contact h5,
+.More h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+.company h6,
+.Contact h6,
+.More h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+}
+
+.About,
+.Help,
+.Airlinefees {
+  margin-top: 20px;
+}
+
+.Discover h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.gpay img {
+  margin-top: 41px;
+  /* height: 35px;
+    width: 107px; */
+}
+.facebook {
+  margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+  .leftside {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+  }
+  .company,
+  .Contact,
+  .More,
+  .Discover {
+    padding-bottom: 20px;
+  }
+}

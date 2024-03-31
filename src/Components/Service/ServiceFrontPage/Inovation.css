@@ -1,0 +1,99 @@
+.front-page-sectionNo1 {
+  background-color: #016a70;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 200px 150px;
+}
+.main-About {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftAboutImage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.rightaboutText h3 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.rightaboutText h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.rightaboutText h6 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+@media (max-width: 1400px) {
+  .front-page-sectionNo1 {
+    padding: 200px 150px;
+  }
+}
+@media (max-width: 1252px) {
+  .front-page-sectionNo1 {
+    padding: 200px 0px;
+  }
+}
+@media (max-width: 992px) {
+  .front-page-sectionNo1 {
+    padding: 160px 0px;
+  }
+  .leftAboutImage {
+    width: 100%;
+  }
+  .main-About {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .rightaboutText {
+    margin-top: 20px;
+  }
+  .rightaboutText h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rightaboutText h1 {
+    font-size: 35px;
+  }
+  .rightaboutText h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-About {
+    padding: 130px 30px;
+  }
+  .rightaboutText h1 {
+    font-size: 30px;
+  }
+  .rightaboutText h3 {
+    font-size: 20px;
+  }
+  .front-page-sectionNo1 {
+    padding: 100px 0px;
+  }
+}
+
+@media (max-width: 475px) {
+  .rightaboutText h1 {
+    font-size: 20px;
+  }
+}

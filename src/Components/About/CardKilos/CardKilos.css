@@ -1,0 +1,89 @@
+.cardkilo {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+
+.Plastic {
+  box-shadow: 1px 3px 8px -1px rgb(158, 153, 153);
+  padding: 27px 80px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.Plastic h1,
+.Bottle h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #016a70;
+}
+.Plastic h3,
+.Bottle h3 {
+  margin: 20px 0;
+  color: #222831;
+  font-size: 28px;
+}
+
+.Bottle {
+  background-color: white;
+  box-shadow: 1px 3px 8px -1px rgb(158, 153, 153);
+  padding: 27px 80px;
+  border-radius: 20px;
+}
+
+.Bottle h3 {
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .cardkilo {
+    flex-wrap: wrap;
+  }
+  .Bottle {
+    padding: 27px 95px;
+  }
+}
+@media (max-width: 575px) {
+  .Bottle {
+    padding: 27px 0px;
+    width: 85%;
+  }
+
+  .Plastic {
+    width: 85%;
+    padding: 27px 0px;
+  }
+
+  .Plastic h1,
+  .Bottle h1 {
+    font-size: 40px;
+  }
+  .Plastic h3,
+  .Bottle h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Bottle {
+    padding: 27px 0px;
+    width: 85%;
+  }
+
+  .Plastic {
+    width: 85%;
+    padding: 27px 0px;
+  }
+
+  .Plastic h1,
+  .Bottle h1 {
+    font-size: 35px;
+  }
+  .Plastic h3,
+  .Bottle h3 {
+    font-size: 20px;
+  }
+}

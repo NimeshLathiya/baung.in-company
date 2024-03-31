@@ -1,0 +1,68 @@
+.testimonial {
+  margin: 167px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0 10px;
+}
+.firstTest {
+  width: 40%;
+}
+.firstTest h3 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #222831;
+}
+.firstTest h2 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #222831;
+}
+.talking {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 1px 3px 8px -1px rgb(158, 153, 153);
+  border-radius: 12px;
+  padding: 37px 39px;
+  margin: 0px 20px;
+  width: 70%;
+}
+
+.express h6 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #5e6282;
+}
+.client h5 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 77.21px;
+  color: #5e6282;
+}
+.client h6 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #5e6282;
+}
+@media (max-width: 768px) {
+  .testimonial {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .firstTest {
+    width: 100%;
+  }
+  .talking {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+  }
+}

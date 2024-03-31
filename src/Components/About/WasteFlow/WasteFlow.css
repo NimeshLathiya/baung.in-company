@@ -1,0 +1,78 @@
+.WasteFlow-Section {
+  background-color: #016a70;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 250px 10px 130px;
+}
+.WasteFlow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WasteFlow h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.WasteFlow h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffdd;
+}
+.innerDetails h6 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffdd;
+  margin-top: 24px;
+}
+.innerDetails {
+  width: 176px;
+  height: 249px;
+  margin-bottom: 20px;
+  /* border: 1px solid black; */
+}
+.wasteCard {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .WasteFlow-Section {
+    padding: 250px 10px 130px;
+  }
+}
+@media (max-width: 767px) {
+  .WasteFlow {
+    text-align: center;
+  }
+  .WasteFlow h3 {
+    font-size: 30px;
+  }
+  .WasteFlow h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 475px) {
+  .WasteFlow-Section {
+    padding: 250px 0px 130px;
+  }
+}
+@media (max-width: 575px) {
+  .WasteFlow {
+    text-align: center;
+  }
+  .WasteFlow h3 {
+    font-size: 22px;
+  }
+  .WasteFlow h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,153 @@
+.front-page-section {
+  background-color: #016a70;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 200px 150px;
+  /* z-index: -1; */
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.left h1 {
+  font-size: 1.75rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.left h6 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.left p {
+  font-size: 0.875rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+}
+.left button {
+  margin-top: 30px;
+  /* padding: 18px 40px; */
+  width: 160px;
+  height: 50px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.7s;
+}
+.left button:hover {
+  background-color: rgba(255, 255, 255, 0.354);
+  color: white;
+  cursor: pointer;
+}
+
+.right {
+  width: 40%;
+  margin-bottom: -50px;
+  display: flex;
+}
+
+.right img {
+  object-fit: contain;
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 1252px) {
+  .front-page-section {
+    padding: 200px 50px;
+  }
+  .left h1 {
+    font-size: 1.75rem;
+  }
+  .left h6 {
+    font-size: 2rem;
+  }
+  .left p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .left h1 {
+    font-size: 2.55rem;
+  }
+  .left h6 {
+    font-size: 3rem;
+  }
+  .left p {
+    font-size: 1.075rem;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .front-page-section {
+    padding: 200px 0px;
+  }
+  .right {
+    justify-content: center;
+    width: 100%;
+  }
+  .right img {
+    object-fit: contain;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .left {
+    padding: 20px 50px;
+  }
+  .left h1 {
+    font-size: 1.55rem;
+  }
+
+  .left h6 {
+    font-size: 2.1rem;
+  }
+  .left p {
+    font-size: 0.975rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .left h1 {
+    font-size: 1.5rem;
+  }
+
+  .left h6 {
+    font-size: 2.5rem;
+  }
+  .left p {
+    font-size: 0.675rem;
+  }
+}

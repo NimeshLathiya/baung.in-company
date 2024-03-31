@@ -1,0 +1,91 @@
+.Interested {
+  text-align: center;
+}
+.Interested h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #393e46;
+}
+.Interested h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #016a70;
+}
+.Interested h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #393e46;
+  padding: 0 10px;
+}
+.mainClass {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 68px;
+}
+
+.Ellipse {
+  background-color: #016a70;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.valueClass {
+  width: 23%;
+  margin: 20px 10px 0;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 8px -1px rgb(158, 153, 153);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plasticText {
+  margin-top: 33px;
+}
+.plasticText h6 {
+  margin-top: 23px;
+}
+
+.plasticText h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.plasticText h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .valueClass {
+    width: 26%;
+    padding: 30px 49px;
+  }
+}
+
+@media (max-width: 767px) {
+  .valueClass {
+    width: 40%;
+    padding: 30px 74px;
+  }
+}
+@media (max-width: 575px) {
+  .valueClass {
+    width: 60%;
+    padding: 40px 94px;
+  }
+}
+@media (max-width: 475px) {
+  .valueClass {
+    padding: 30px 10px;
+    width: 88%;
+  }
+}
