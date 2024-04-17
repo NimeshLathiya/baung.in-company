@@ -5,7 +5,7 @@ import Group4 from "../../Components/About/About Image/Group4.png";
 
 let MastersCards = [
   {
-    image: ,
+    image: Group1,
     desc: "Live Training Door to Doors",
     name: "Admin Yovi",
   },
