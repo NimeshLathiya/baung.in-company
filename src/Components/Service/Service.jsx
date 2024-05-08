@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <>
       <Inovation />
-      < />
+      <Goal />
       <Footer />
     </>
   );
